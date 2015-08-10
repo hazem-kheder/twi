@@ -1,0 +1,201 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background:#F4F4F4;
+	margin:0;
+}
+a{
+	color:#9C0;
+}
+#per{
+	display:block;
+	margin:0 auto;
+	margin-top:5%;
+	width:50%;
+	height:auto;
+	border:#CCC solid 1px;
+	padding:20px;
+	border-radius:5px;
+	background:#FFF;
+	color:#666;
+}
+#per h1{
+	display:inline-block;
+	width:100%;
+	border-bottom:#03F solid 2px;
+	font-size:24px;	
+}
+#per span{
+	display:inline-block;
+	width:100%;
+	margin-bottom:20px;
+}
+#per a{
+	background:#03F;
+	border:#00F solid 1px;
+	padding:10px;
+	text-decoration:none;
+	color:#FFF;
+	font-weight:bold;
+	border-radius:3px;
+}
+.ok{
+	display:inline-block;
+	width:720px;
+	background:#D3F5BA;
+	border:#D0EEC1;
+	padding:10px;	
+}
+.error{
+	display:inline-block;
+	width:720px;
+	background:#FFFBFD;
+	border:#D0EEC1;
+	padding:10px;
+	
+}
+#profile-pic{
+	display:inline-block;
+	width:100%;
+	min-width:800px;
+	min-height:200px;
+	background:url(../images/top.jpg) center no-repeat;
+}
+#container{
+	display:block;
+	width:800px;
+	height:auto;
+	border:#F4F4F4 solid 1px;
+	margin:0 auto;
+	position:relative;
+	margin-bottom:20px;
+	margin-top:20px;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	background:#FFF;
+	
+}
+#container #avatar-image,#container #avb{
+	display:inline-block;
+	width:200px;
+	height:200px;
+	border:#CCC solid 1px;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	position:absolute;
+	left:5px;
+	top:-120px;
+	background:#FFF;
+
+	
+}
+#container #avb{
+	border:none;
+	left:0;
+	top:0;
+	background:url(../images/logo.png);
+	background-size:contain;
+}
+#container #description{
+	display:inline-block;
+	height:90px;
+	width:800px;
+	border-bottom: #F4F4F4 solid 1px;
+	
+}
+#container #description h1{
+	display:inline-block;
+	margin-left:220px;
+	color:#9C0;
+	text-transform:uppercase;
+}
+#container .tweets{
+	display:inline-block;
+	width:790;
+	height:auto;
+	padding:5px;
+	margin-top:10px;
+	margin-bottom:10px;
+	border-bottom:#F4F4F4 dotted 1px;
+}
+#container .tweets:hover{
+	background:#E0F5E6;
+}
+#container .tweets img{
+	display:inline-block;
+	width:50px;
+	height:50px;
+	float:left;
+	margin-right:5px;
+}
+#container .tweets .text{
+	display:inline-block;
+	width:730px;
+	height:50px;
+	float:left;
+	font-size:18px;
+	color:#666;	
+}
+#container .tweets .options{
+	display:inline-block;
+	width:750px;
+	min-height:50px;
+	float:left;
+	padding-left:20px;
+		
+}
+#container .tweets .options .comment{
+	display:inline-block;
+	width:750px;
+	border-top:#EFEFEF solid 1px;
+	padding-top:5px;
+}
+#container .tweets .options .comment form{
+	display:inline-block;
+	width:720px;
+	margin-left:30px;
+}
+.fav , .com,.ret{
+	border-left:#F2F2F2 solid 1px;
+}
+#container .tweets .options .comment form textarea{
+	display:inline-block;
+	width:600px;
+	height:40px;
+	padding:5px;
+	border:#EFEFEF solid 1px;
+	border-radius:3px;
+	background:#FFF;
+	float:left;
+}
+#container .tweets .options .comment form .sub{
+	display:inline-block;
+	width:40px;
+	padding:13px;
+	float:left;
+	height:20px;
+	margin-left:20px;
+	background:#9C0;
+	color:#FFF;
+	font-weight:bold;
+	border:#CCC solid 1px;
+	border-radius:3px;
+	cursor:pointer;
+}
+#container .tweets .options span{
+	display:inline-block;
+	float:right;
+	margin:10px;
+}
+#container .tweets .options span:hover{
+	background:#9C0;
+	cursor:pointer;
+}
+#container .tweets .options img{
+	display:inline-block;
+	width:20px;
+	height:auto;
+	padding-left:10px;
+}
